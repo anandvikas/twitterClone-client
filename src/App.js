@@ -6,9 +6,12 @@ const App = () => {
 
   return (
     <div>
-      App
+      <div className='navBar'></div>
+      <div className='content'></div>
+      <div className='sidebar'></div>
     </div>
   )
+
 }
 
 export default App
