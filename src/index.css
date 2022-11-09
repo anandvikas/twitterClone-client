@@ -1,19 +1,40 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 0.1px solid red; */
+  font-family: 'Roboto', sans-serif;
 }
 
-.flex-Col{
+.flex-Col {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.flex-Row{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
+.flex-Row {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.color-dark {
+  background-color: rgb(190, 190, 190);
+}
+
+.color-light {
+  background-color: rgb(235, 235, 235);
+}
+
+.nav-bar {
+  flex: 20%;
+}
+
+.side-bar {
+  flex: 45%;
+}
+
+.content-bar {
+  flex: 35%;
+}

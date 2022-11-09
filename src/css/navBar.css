@@ -1,0 +1,39 @@
+.nav-bar {
+    position: relative;
+    flex: 30%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-bar>div {
+    padding-right: 100px;
+    position: fixed;
+    top: 0px;   
+    width: fit-content;
+    /* border: 1px solid red; */
+}
+
+.nav-item {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 18px 12px;
+    font-size: 18px;
+    font-weight: lighter;
+    border-radius: 30px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.nav-item>img {
+    width: 25px;
+    margin-right: 10px
+}
+
+.nav-logo>img{
+    width: 40px;
+}
