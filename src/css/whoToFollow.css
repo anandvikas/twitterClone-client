@@ -1,0 +1,75 @@
+.wtf {
+    width: 100%;
+    max-width: 400px;
+    /* border: 1px solid rgb(247, 249, 249); */
+    background-color: rgb(247, 249, 249);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.wtf-heading {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+
+.wtf-body-card {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.wtf-body-card-img {
+    flex: 20%;
+}
+
+.wtf-body-card-img>img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.wtf-body-card-text {
+    flex: 80%;
+}
+
+.wtf-card-text-name {
+    font-size: 15px;
+    /* padding-bottom: 8px; */
+    font-weight: 700;
+}
+
+.wtf-card-text-name>img{
+    width: 20px;
+}
+
+.wtf-card-text-at {
+    font-size: 13px;
+    color: grey;
+    padding-bottom: 8px;
+}
+
+.wtf-body-card-btn {
+    flex: 20%;
+}
+
+.wtf-body-card-btn>button {
+    flex: 20%;
+    color: white;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    background-color: rgb(15,20,25);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+
+
+
+.wtf-seeMore {
+    font-size: 13px;
+    color: rgb(29, 155, 240);
+    padding-bottom: 8px;
+}

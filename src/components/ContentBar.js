@@ -16,7 +16,7 @@ const ContentBar = () => {
       <Header1 />
       <Feed />
       <Feed />
-      <Feed />
+      {/* <Feed /> */}
     </div>
   )
 }

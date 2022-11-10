@@ -1,0 +1,111 @@
+.landing-div {
+    display: flex;
+
+}
+
+.landing-div-poster {
+    flex: 50%;
+    max-width: 50%;
+    position: relative;
+}
+
+.landing-div-poster>img {
+    width: 100%;
+    height: 100vh;
+}
+
+.landing-div-poster>svg {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: auto;
+}
+
+.r-jwli3a {
+    color: rgb(255, 255, 255);
+}
+
+.r-yyyyoo {
+    fill: currentcolor;
+}
+
+.landing-div-actions {
+    flex: 50%;
+    max-width: 50%;
+    padding: 30px;
+}
+
+/* .actions-logo */
+
+.actions-head {
+    font-size: 64px;
+    font-weight: 700;
+    margin: 50px 0px;
+}
+
+.actions-subHead {
+    font-size: 31px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+
+.btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid rgb(230, 230, 230);
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.actions-btn {
+    margin-top: 20px;
+}
+
+.actions-btn>button>img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.actions-or {
+    width: 300px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.bluBtn {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    margin-bottom: 5px;
+}
+
+.bluBtn:hover {
+    background-color: rgb(27, 142, 219);
+}
+
+.actions-tnc {
+    width: 300px;
+    font-size: 11px;
+    color: rgb(119, 119, 119);
+    margin-bottom: 20px;
+}
+
+.actions-tnc-link {
+    color: rgb(27, 142, 219);
+}
+
+/* .actions-or2 */
+
+/* .actions-btnL */

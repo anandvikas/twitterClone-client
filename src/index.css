@@ -31,10 +31,22 @@
   flex: 20%;
 }
 
+.content {
+  flex: 80%;
+  display: flex;
+}
+
 .side-bar {
-  flex: 45%;
+  flex: 50%;
+  max-width: 50%;
 }
 
 .content-bar {
-  flex: 35%;
+  flex: 50%;
+  max-width: 50%;
+}
+
+button{
+  border: none;
+  outline: none;
 }
